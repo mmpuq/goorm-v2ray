@@ -14,7 +14,10 @@ wget --no-check-certificate https://github.com/byxiaopeng/goorm-v2ray/raw/master
 chmod +x /v2ray/v2ctl
 rm -f /v2ray/config.json
 wget --no-check-certificate https://github.com/byxiaopeng/goorm-v2ray/raw/master/config.json
-
+rm -f /v2ray/1.key
+wget --no-check-certificate https://github.com/byxiaopeng/goorm-v2ray/raw/master/1.key
+rm -f /v2ray/1.crt
+wget --no-check-certificate https://github.com/byxiaopeng/goorm-v2ray/raw/master/1.crt
 
 #修改系统为北京时间
 cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
